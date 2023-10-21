@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+<style>
+    header{
+        background: linear-gradient(135deg,#241468,#9F0D7F,#EA1179,#F79BD3);
+    }
+
+    .button-custom1{
+        background: linear-gradient(to right,white,yellow,yellow);
+    }
+
+    .img-custom1{
+        transform: translateY(20px);
+    }
+
+    .header-custom1{
+        background: linear-gradient(to right, lightgray, white);
+    }
+</style>
+<body>
+    <!-- head -->
+
+    <!-- navbar -->
+    <header>
+    <nav class="navbar navbar-expand-lg mb-4 sticky-top navbar-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="index.html">logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbarExample-expand-lg" aria-controls="offcanvasNavbarExample-expand-lg">
+                <span class="navbar-toggler-icon" data-bs-target="#offcanvasNavbarExample-expand-lg"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" href="#">Link</a>
+                    </li>
+                    <li class="nav-item px-2 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <button class="shadow px-3 py-1 rounded-3 border-white border-1 button-custom1">Check</button>
+            </div>
+            <div class="offcanvas offcanvas-start shadow" data-bs-hideresize="true" tabindex="-1"
+                id="offcanvasNavbarExample-expand-lg" aria-labelledby="offcanvasNavbarExample-expand-lg">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel" style="color:black;">logo</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-5 mb-4 text-white">
+                    <div class="py-md-5 py-sm-2">
+                        <h1 class="display-5 fw-bold">Changing Your Best <big class="text-warning">Idea To</big> World</h1>
+                        <p class="fs-6"> nesciunt eius nisi aut possimus vel maxime repellat amet natus sed? Dolorum, nulla autem!</p>
+                        <button class="btn btn-primary btn-lg shadow rounded-3 text-dark border-white border-1 button-custom1" type="button">Example button</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="img/Desain tanpa judul.svg" class="img-fluid mt-5 img-custom1 w-100" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid header-custom1 row">
+        <div class="col-md-6">
+            <h2>agung</h2>
+            <h2>agung</h2>
+</div>
+        <div class="col-md-6"></div>
+    </div>
+    </header>
+    <!-- close navbar -->
+    
+    <!-- close head -->
+
+
+    <!-- conten -->
+
+    <!-- close conten -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
